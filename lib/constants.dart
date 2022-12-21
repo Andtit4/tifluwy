@@ -7,7 +7,9 @@ const red = Colors.red;
 const green = Colors.green;
 const yellow = Colors.yellow;
 const uiPurple = Color.fromARGB(255, 113, 117, 193);
-const uiBgBlack = Color(0xFF03123D);
+const uiBlack = Color(0xFF03123D);
+const uiWhite = Color.fromARGB(255, 238, 237, 237);
+const uiGreen = Color.fromARGB(255, 184, 216, 185);
 
 
 //Font

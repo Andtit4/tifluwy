@@ -5,6 +5,8 @@ import 'package:get/get_navigation/get_navigation.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:kit/constants.dart';
 import 'package:kit/widgets/card.dart';
+import 'package:kit/widgets/dropdown.dart';
+import 'package:kit/widgets/text.dart';
 
 void main() {
   runApp(GetMaterialApp(
@@ -24,7 +26,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: uiBgBlack,
+      backgroundColor: uiBlack,
       body: SafeArea(
         child: Column(
           children: [
@@ -37,9 +39,10 @@ class _HomePageState extends State<HomePage> {
               height: 122,
               color: white,
               borderColor: uiPurple,
-              boxshadowColor: Colors.transparent,
-              text: 'solo',
-            )
+              child: Text("jnvkjfds", style: GoogleFonts.poppins(color: Colors.black, fontSize: 32),),
+            ),
+            // Text("", style: ,)
+            Container(),
           ],
         ),
       ),
