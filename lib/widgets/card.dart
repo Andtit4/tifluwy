@@ -27,20 +27,8 @@ class TwUiCard extends StatelessWidget {
           color: Colors.white,
           border: Border.all(width: 2, color: borderColor.withOpacity(.4)),
           borderRadius: BorderRadius.circular(25),
-         /*  gradient: LinearGradient(colors: [
-            color,
-            // const Color.fromARGB(255, 113, 117, 193).withOpacity(.1),
-            Colors.white.withOpacity(.4)
-          ], begin: Alignment.topCenter, end: Alignment.bottomLeft), */
-          /* boxShadow: [
-            BoxShadow(
-                color: boxshadowColor,
-                spreadRadius: 3,
-                blurRadius: 12,
-                offset: const Offset(3, 3))
-          ] */),
+    ),
           child: child,
-      // child: Text(text),
     );
   }
 }
